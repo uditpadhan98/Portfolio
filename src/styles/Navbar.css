@@ -3,6 +3,7 @@
     height: 80px;
     background: #21325e;
     position: fixed;
+    overflow: hidden;
   }
   
   .links {
@@ -19,6 +20,12 @@
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+  }
+
+  .navbar a:hover{
+    color: #4ABDAC;
+    font-size: 24px;
+    transition: .3s;
   }
   
   .toggleButton {

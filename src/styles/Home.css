@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #E26868;
+    /* color: white; */
   }
   
   .about {
@@ -13,14 +13,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #D8D9CF;
+    background-color: #4ABDAC;
     color: #E26868;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
-    color: #E26868;
+    color: #FC4A1A;
     height: 50px;
   }
   
@@ -30,8 +30,14 @@
   }
   .prompt svg {
     font-size: 60px;
-    margin: 5px;
-    color: #E26868;
+    margin: 8px;
+    color: #876b33;
+  }
+
+  .prompt svg:hover{
+    color: #F7B733;
+    font-size: 58px;
+    transition: 0.3s;
   }
   
   .skills {
@@ -42,10 +48,12 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
+    background-color: #4ABDAC;
+    padding-bottom: 50px;
   }
   
   .skills h1 {
-    color: #3e497a;
+    color: #070913;
   }
   
   .skills .list {
@@ -57,6 +65,7 @@
   
   .list span {
     font-size: 20px;
+    color: white;
   }
   
   @media only screen and (max-width: 600px) {

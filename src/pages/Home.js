@@ -4,6 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import "../styles/Home.css";
+import Banner from "./Banner";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Udit Padhan</h2>
         <div className="prompt">
-          <p>A Web developer ...learning and creating.</p>
+          <Banner/>
           <a href="https://www.linkedin.com/in/udit-padhan-41481a222/">
           <LinkedInIcon />
           </a>
