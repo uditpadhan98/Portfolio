@@ -11,36 +11,42 @@ const Portfolio = () => {
     {
       id: 1,
       src: shopClue,
+      tittle: "E-commerce",
       demo: "https://shopclue.onrender.com/",
       code: "https://github.com/uditpadhan98/ecommerce"
     },
     {
       id: 2,
       src: foodOps,
+      tittle: "Food-Order",
       demo: "https://food-9agv.onrender.com/",
       code: "https://github.com/uditpadhan98/food-ordering"
     },
     {
       id: 3,
       src: weather,
+      tittle: "Weather",
       demo: "https://uditpadhan98.github.io/weather/",
       code: "https://github.com/uditpadhan98/weather"
     },
     {
       id: 4,
       src: quiz,
+      tittle: "Quiz",
       demo: "https://uditpadhan98.github.io/Quiz-app/",
       code: "https://github.com/uditpadhan98/Quiz-app"
     },
     {
       id: 5,
       src: expense,
+      tittle: "Expense-Tracker",
       demo: "https://uditpadhan98.github.io/Expense-tracker/",
       code: "https://github.com/uditpadhan98/Expense-tracker"
     },
     {
       id: 6,
       src: flappyBird,
+      tittle: "FlappyBird Game",
       demo: "https://uditpadhan98.github.io/Flappy-Bird-Game/",
       code: "https://github.com/uditpadhan98/Flappy-Bird-Game"
     },
@@ -59,18 +65,21 @@ const Portfolio = () => {
 
         {/* structure for card */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, code, demo }) => (
+          {portfolios.map(({ id, src, code, demo ,tittle}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <div className="text-lg flex items-center justify-center duration-200 hover:scale-105">
+                {tittle}
+              </div>
               <div className="flex items-center justify-center">
-                <a href={demo} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={demo} className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
                   Demo
                 </a>
-                <a href={code} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={code} className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
                   Code
                 </a>
               </div>
