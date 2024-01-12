@@ -12,7 +12,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-4xl font-bold text-white">
             I'm a Web Developer.
           </h2>
-          <p className="text-gray-400 py-4 max-w-md">
+          <p className="text-gray-400 py-4 max-w-md text-justify">
           As a dedicated web developer currently pursuing studies at NIT Rourkela, I bring a dynamic blend of academic rigor and practical expertise to my projects. Specializing in crafting elegant and responsive web solutions, I am committed to pushing boundaries and delivering impactful digital experiences. Explore my portfolio to witness the intersection of innovation and skill.
           </p>
 
